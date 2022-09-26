@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Rhino_Games_V1.Main" %>
+<!DOCTYPE html>
+<html>
+	<head runat="server">
+	<style type="text/css">
+    .auto-style2 {
+        width: 156px;
+        height: 55px;
+    }
+</style>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+		<title>Rhino Games</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    </asp:ContentPlaceHolder>
+
+	</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <header id="header">
+					<h1 id="logo"><a href="Default.aspx">
+                        <img src="images/Picture1.png" class="auto-style2" /></a></h1>
+					<nav id="nav">
+						<ul>
+							<a href="About.aspx">About</a>
+                            <a href="Games_List.aspx">Store</a>
+							<a href="Login.aspx">Login</a>
+                            <a href="Game_Play.aspx">Game Play</a>
+                            <a href="Default.aspx">Home</a>
+								
+							<li><a href="Registration.aspx" class="button primary">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+			
+			<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.Rhino Games 2021</li><li></li>
+					</ul>
+				</footer>
+
+		</div>
+    </form>
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</body>
+
+</html>
